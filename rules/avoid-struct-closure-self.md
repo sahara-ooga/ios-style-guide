@@ -76,7 +76,7 @@ print(foo.text) // prints("")
 ```
 It prints "" because `foo.text` equals "", we changed the text of the copy created by `self` on the closure but not the `text` value of `foo`.
 
-####Right way:
+#### Right way:
 
 ```swift
 public class Foo {
